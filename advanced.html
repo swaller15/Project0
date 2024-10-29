@@ -8,22 +8,22 @@
         <a href="index.html">Google</a>
     </nav>
     <body>
-        <form action='https://google.com/search'> 
+        <form action='https://google.com/search' method="get"> 
             <div class="phrase">
                 <label>all these words: </label>
-                <input type="text">
+                <input type="text" name="as_q">
             </div>
             <div class="phrase">
                 <label> this exact word or phrase: </label>
-                <input type="text">
+                <input type="text" name="as_epq">
             </div>
             <div class="phrase">
                 <label>any of these words: </label>
-                <input type="text">
+                <input type="text" name="as_oq">
             </div>
             <div class="phrase">
                 <label>none of these words: </label>
-                <input type="text">
+                <input type="text" name="as_eq">
             </div>
             <input type="submit" value="Advanced Search" id="asbutton" href="https://www.google.com/search">
         </form>
