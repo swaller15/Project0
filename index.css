@@ -4,7 +4,7 @@ a {
 nav {
     position : absolute;
     right: 0px;
-    top: 0px;
+    top: 15px;
 }
 #asbutton {
     background-color: blue;
@@ -14,12 +14,29 @@ nav {
 }
 #button {
     display: flex;
-    justify-content: center;
+    justify-content: center;    
+    color: #1f1f1f;
+    size: 14px;
 }
 #Google {
-    margin-top: 20%;
-    margin-left: 42.5% ;
-
+    height: 92px;
+    width: auto;
+    object-fit: contain;
+    object-position: bottom;
+    position: relative;
+}
+#imgcont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+}
+#navlink {
+    text-decoration: none;
+    color: #1f1f1f;
+}
+#navlink:hover {
+    text-decoration: underline;
 }
 #textbox {
     border-radius: 15px;
